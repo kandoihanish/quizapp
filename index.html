@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onselectstart="return false">
+    
+    <div class="playquiz  ">
+        Play Quiz
+    </div>
+
+
+    <div class="quizbox inactive ">
+    
+        <h3 class="questext"></h3>
+        <div class="options">
+            <!-- <div class="option incorrect">  <i class="fa fa-times"></i></div>
+            <div class="option incorrect">  <i class="fa fa-times"></i></div>
+            <div class="option correct"> <i class="fa fa-check"></i></div>
+            <div class="option incorrect"> <i class="fa fa-times"></i></div> -->
+        </div>
+        <div class="quizfooter">
+            <div class="quizfooterleft">
+                <span class="quescounter"></span> of <span class="totalques"></span> Questions
+            </div>
+            <div class="quizfooterright inactive">Next</div>
+        </div>
+
+    </div>
+
+
+    <div class="resultbox inactive">
+        <div class="heading">Result</div>
+        <div class="result">
+            <div class="totalques">Total Questions: <span class="totalque"></span> </div>
+            <div class="rightans">Right Answer: <span class="rightanswer"></span> </div>
+            <div class="wrongans">Wrong Answer:<span class="wronganswer"></span></div>
+            <div class="marks">Percentage:<span class="marksresult"></span></div>
+        </div>
+        <div class="resultfooter">
+            <div class="replay">Replay</div>
+            <div class="exit">Exit</div>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
